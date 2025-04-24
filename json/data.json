@@ -1,0 +1,23 @@
+{
+    "carouselItems": [
+      {
+        "bgImage": "img/slide-3.jpg",
+        "topTitle": "FAUJI REAL ESTATE",
+        "mainTitle": "Best <span class='color-b'> Real Estate </span><br>Agent In Greater Noida.",
+        "priceLink": "Browse Properties",
+        "showHelp": true
+      },
+      {
+        "bgImage": "img/slide-2.jpg",
+        "topTitle": "Doral, Florida<br>78345",
+        "mainTitle": "<span class='color-b'>204 </span> Rino<br>Venda Road Five",
+        "priceText": "rent | $ 12.000"
+      },
+      {
+        "bgImage": "img/slide-1.jpg",
+        "topTitle": "Doral, Florida<br>78345",
+        "mainTitle": "<span class='color-b'>204 </span> Alira<br>Roan Road One",
+        "priceText": "rent | $ 12.000"
+      }
+    ]
+  }

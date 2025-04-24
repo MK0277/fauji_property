@@ -1,0 +1,971 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>EstateAgency Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Load Font Awesome 5/6 first -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="click-closed"></div>
+  <!--/ Form Search Start /-->
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Search Property</h3>
+    </div>
+    <span class="close-box-collapse right-boxed ion-ios-close"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label for="Type">Keyword</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="Type">Type</label>
+              <select class="form-control form-control-lg form-control-a" id="Type">
+                <option>All Type</option>
+                <option>For Rent</option>
+                <option>For Sale</option>
+                <option>Open House</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="city">City</label>
+              <select class="form-control form-control-lg form-control-a" id="city">
+                <option>All City</option>
+                <option>Alabama</option>
+                <option>Arizona</option>
+                <option>California</option>
+                <option>Colorado</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bedrooms">Bedrooms</label>
+              <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="garages">Garages</label>
+              <select class="form-control form-control-lg form-control-a" id="garages">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bathrooms">Bathrooms</label>
+              <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="price">Min Price</label>
+              <select class="form-control form-control-lg form-control-a" id="price">
+                <option>Unlimite</option>
+                <option>$50,000</option>
+                <option>$100,000</option>
+                <option>$150,000</option>
+                <option>$200,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">Search Property</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--/ Form Search End /-->
+
+  <!--/ Nav Start /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <!-- <a class="navbar-brand text-brand" href="index.html">Estate<span class="color-b">Agency</span></a> -->
+      <img src="img/logo.png" alt="" width="20%">
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="property-grid.html">Property</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog-grid.html">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Pages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="property-single.html">Property Single</a>
+              <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+              <a class="dropdown-item" href="agents-grid.html">Agents Grid</a>
+              <a class="dropdown-item" href="agent-single.html">Agent Single</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Carousel Start /-->
+  <section class="section-services section-t8">
+    <div class="intro intro-carousel position-relative d-flex">
+        <div id="carousel" class="owl-carousel owl-theme w-100">
+            <div class="carousel-item-a intro-item bg-image" style="background-image: url(${item.bgImage})">
+              <!-- Carousel items will be injected here by JavaScript --> 
+            </div>
+          </div>
+          
+    </div>
+ 
+<!-- Help Icon (Visible on mobile only) -->
+<div class="help-icon" id="helpIcon">
+    <i class="fas fa-question-circle"></i>
+  </div>
+  
+<!-- Help Box -->
+<div id="helpBox" class="help-box-floating d-none">
+    <div class="help-container">
+      <button class="close-help" id="closeHelpBox">&times;</button> <!-- Close Icon -->
+      <h2 class="help-heading">Need Help?</h2>
+      <div class="help-option">
+        <button class="help-button schedule">Schedule Your Visit</button>
+  
+        <div class="phone-group">
+          <input type="tel" id="mobileInput" maxlength="10" pattern="\d{10}"
+            oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" class="phone-input"
+            placeholder="Enter your Mobile Number">
+  
+          <textarea id="messageInput" class="phone-input" placeholder="Enter your Message" rows="3"></textarea>
+            
+          <div class="row gx-2"> <!-- Small horizontal gutter between buttons -->
+              <div class="col-12 col-md-6">
+                <button class="help-button send email w-100">
+                  <i class="fas fa-envelope"></i> Email
+                </button>
+              </div>
+              <div class="col-12 col-md-6 mt-2 mt-md-0">
+                <button class="help-button send whatsapp w-100">
+                  <i class="fab fa-whatsapp"></i> WhatsApp
+                </button>
+              </div>
+            </div>
+         
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const helpBox = document.getElementById("helpBox");
+      const helpIcon = document.getElementById("helpIcon");
+      const closeHelpBox = document.getElementById("closeHelpBox");
+  
+      // Show help box by default on desktop
+      if (window.innerWidth > 768) {
+        helpBox.classList.remove("d-none");
+        setTimeout(() => {
+          helpBox.classList.add("show");
+        }, 300);
+      }
+  
+      // Toggle help box on icon click for mobile
+      helpIcon.addEventListener("click", () => {
+        const isHidden = helpBox.classList.contains("d-none");
+        helpBox.classList.toggle("d-none", !isHidden);
+        if (isHidden) {
+          setTimeout(() => helpBox.classList.add("show"), 100);
+        } else {
+          helpBox.classList.remove("show");
+        }
+      });
+  
+      // Close help box when close icon is clicked
+      closeHelpBox.addEventListener("click", () => {
+        helpBox.classList.remove("show");
+        setTimeout(() => helpBox.classList.add("d-none"), 300);
+      });
+    });
+  </script>
+  
+  
+  </section>
+  <!--/ Carousel end /-->
+
+
+  <!--/ Latest Property Start /-->
+  <section class="property-services section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Latest Properties</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Property Carousel -->
+      <div id="property-carousel" class="owl-carousel owl-theme container "></div>
+            <!-- Data will Come from js file -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section-services section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Our Services</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <!-- Propertu sell icon -->
+                <span class="fas fa-file-signature" style="font-size: 48px;"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Sell Your Property</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Get the best value for your property with our expert guidance.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="#" class="link-c link-icon">Read more
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <!-- Property rent icon -->
+                <span class="fa fa-usd" style="font-size: 50px;"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Buy Real Estate</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Find your dream property with our trusted real estate solutions.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="#" class="link-c link-icon">Read more
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <!-- Handshake icon -->
+                <span class="fas fa-handshake" style="font-size: 50px;"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Real Estate Consulting</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Expert advice to navigate your real estate journey with confidence.
+            </div>
+            <div class="card-footer-c">
+              <a href="#" class="link-c link-icon">Read more
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Services End /-->
+
+  <!--/ Latest Property End /-->
+
+  <!--/ Agents Startt /-->
+  <section class="section-agents section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Best Agents</h2>
+            </div>
+            <div class="title-link">
+              <a href="agents-grid.html">All Agents
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-d">
+            <div class="card-img-d">
+              <img src="img/agent-4.jpg" alt="" class="img-d img-fluid">
+            </div>
+            <div class="card-overlay card-overlay-hover">
+              <div class="card-header-d">
+                <div class="card-title-d align-self-center">
+                  <h3 class="title-d">
+                    <a href="agent-single.html" class="link-two">Margaret Sotillo
+                      <br> Escala</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="card-body-d">
+                <p class="content-d color-text-a">
+                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                </p>
+                <div class="info-agents color-a">
+                  <p>
+                    <strong>Phone: </strong> +54 356 945234
+                  </p>
+                  <p>
+                    <strong>Email: </strong> agents@example.com
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer-d">
+                <div class="socials-footer d-flex justify-content-center">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-d">
+            <div class="card-img-d">
+              <img src="img/agent-1.jpg" alt="" class="img-d img-fluid">
+            </div>
+            <div class="card-overlay card-overlay-hover">
+              <div class="card-header-d">
+                <div class="card-title-d align-self-center">
+                  <h3 class="title-d">
+                    <a href="agent-single.html" class="link-two">Stiven Spilver
+                      <br> Darw</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="card-body-d">
+                <p class="content-d color-text-a">
+                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                </p>
+                <div class="info-agents color-a">
+                  <p>
+                    <strong>Phone: </strong> +54 356 945234
+                  </p>
+                  <p>
+                    <strong>Email: </strong> agents@example.com
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer-d">
+                <div class="socials-footer d-flex justify-content-center">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-d">
+            <div class="card-img-d">
+              <img src="img/agent-5.jpg" alt="" class="img-d img-fluid">
+            </div>
+            <div class="card-overlay card-overlay-hover">
+              <div class="card-header-d">
+                <div class="card-title-d align-self-center">
+                  <h3 class="title-d">
+                    <a href="agent-single.html" class="link-two">Emma Toledo
+                      <br> Cascada</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="card-body-d">
+                <p class="content-d color-text-a">
+                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                </p>
+                <div class="info-agents color-a">
+                  <p>
+                    <strong>Phone: </strong> +54 356 945234
+                  </p>
+                  <p>
+                    <strong>Email: </strong> agents@example.com
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer-d">
+                <div class="socials-footer d-flex justify-content-center">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Agents End /-->
+
+  <!--/ News Startt /-->
+  <section class="section-news section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Latest News</h2>
+            </div>
+            <div class="title-link">
+              <a href="blog-grid.html">All News
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="new-carousel" class="owl-carousel owl-theme">
+        <div class="carousel-item-c">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/post-2.jpg" alt="" class="img-b img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-header-b">
+                <div class="card-category-b">
+                  <a href="#" class="category-b">House</a>
+                </div>
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="blog-single.html">House is comming
+                      <br> new</a>
+                  </h2>
+                </div>
+                <div class="card-date">
+                  <span class="date-b">18 Sep. 2017</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-c">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/post-5.jpg" alt="" class="img-b img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-header-b">
+                <div class="card-category-b">
+                  <a href="#" class="category-b">Travel</a>
+                </div>
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="blog-single.html">Travel is comming
+                      <br> new</a>
+                  </h2>
+                </div>
+                <div class="card-date">
+                  <span class="date-b">18 Sep. 2017</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-c">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/post-7.jpg" alt="" class="img-b img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-header-b">
+                <div class="card-category-b">
+                  <a href="#" class="category-b">Park</a>
+                </div>
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="blog-single.html">Park is comming
+                      <br> new</a>
+                  </h2>
+                </div>
+                <div class="card-date">
+                  <span class="date-b">18 Sep. 2017</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-c">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/post-3.jpg" alt="" class="img-b img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-header-b">
+                <div class="card-category-b">
+                  <a href="#" class="category-b">Travel</a>
+                </div>
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="#">Travel is comming
+                      <br> new</a>
+                  </h2>
+                </div>
+                <div class="card-date">
+                  <span class="date-b">18 Sep. 2017</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ News End /-->
+
+  <!--/ Testimonials Startt /-->
+  <section class="section-testimonials section-t8 nav-arrow-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="testimonial-carousel" class="owl-carousel owl-arrow">
+        <div class="carousel-item-a">
+          <div class="testimonials-box">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-img">
+                  <img src="img/testimonial-1.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-ico">
+                  <span class="ion-ios-quote"></span>
+                </div>
+                <div class="testimonials-content">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
+                    debitis hic ber quibusdam
+                    voluptatibus officia expedita corpori.
+                  </p>
+                </div>
+                <div class="testimonial-author-box">
+                  <img src="img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">Albert & Erika</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-a">
+          <div class="testimonials-box">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-img">
+                  <img src="img/testimonial-2.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-ico">
+                  <span class="ion-ios-quote"></span>
+                </div>
+                <div class="testimonials-content">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
+                    debitis hic ber quibusdam
+                    voluptatibus officia expedita corpori.
+                  </p>
+                </div>
+                <div class="testimonial-author-box">
+                  <img src="img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">Pablo & Emma</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Testimonials End /-->
+
+  <!--/ footer Startt /-->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">EstateAgency</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-black">
+                Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
+                sed aute irure.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-black">
+                  <span>Phone :</span>+54 356 945234
+                </li>
+                <li class="color-black">
+                  <span>Email :</span>contact@example.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">The Company</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Site Map</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Legal</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Agent Admin</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Careers</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Affiliate</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">International sites</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Venezuela</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">China</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Hong Kong</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Argentina</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Singapore</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Philippines</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Property</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-black">
+              &copy; Copyright
+              <span>EstateAgency</span> All Rights Reserved.
+            </p>
+          </div>
+          <div class="credits">
+
+            Designed by <a href="https://bootstrapmade.com/">A1 TRAINING INSTITUTE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+  
+</body>
+<!-- jQuery first -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Then Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Your custom script -->
+<script src="js/script.js"></script>
+ 
+
+</html>

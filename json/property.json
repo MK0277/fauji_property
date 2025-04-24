@@ -1,0 +1,22 @@
+[
+    {
+        "title": ["206 Mount", "Olive Road Two"],
+        "image": "img/property-1.jpg",
+        "price": "12.000",
+        "area": "340",
+        "beds": "2",
+        "baths": "4",
+        "garages": "3",
+        "link": "property-single.html"
+    },
+    {
+        "title": ["157 West", "Central Park"],
+        "image": "img/property-3.jpg",
+        "price": "12.000",
+        "area": "340",
+        "beds": "2",
+        "baths": "2",
+        "garages": "1",
+        "link": "property-single.html"
+    }
+]
