@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
     $('#property-carousel').owlCarousel({
       items: 3,
       loop: true,
-      nav: true,
+      nav: false,
       dots: true,
       margin: 20,
       autoplay: true,
